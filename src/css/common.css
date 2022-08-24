@@ -16,3 +16,38 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: center;
+  height: 130px;
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(196, 196, 196, 0.8);
+  cursor: default;
+}
+
+.value {
+  font-size: 55px;
+  font-family: DS-Digital;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 18px;
+  font-family: 'Lato Light', sans-serif;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 10px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}

@@ -42,5 +42,3 @@ function createPromise(position, delay) {
     }, delay);
   });
 }
-
-function changeBranche() {}
